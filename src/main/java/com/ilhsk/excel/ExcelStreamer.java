@@ -13,7 +13,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import com.monitorjbl.xlsx.StreamingReader;
 
 
-public class ExceStreamer {
+public class ExcelStreamer {
 
 	public static void main(String[] args) throws Exception {
 		try (InputStream is = new FileInputStream(new File("d:/tt.xlsx")); Workbook workbook = StreamingReader.builder().rowCacheSize(100).bufferSize(4096).open(is)) {
