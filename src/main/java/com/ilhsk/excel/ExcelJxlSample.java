@@ -1,13 +1,4 @@
-/**
- * @File ExcelJxlSample.java
- * @package com.ilhsk.excel
- * @Description 
- * @Modification Information
- * @ProjectName  NetmarbleNeo Project
- * @Author ilhsk
- * @Since 2021. 10. 5.
- * @Copyright Copyright (c) 2021 NetmarbleNeo, Corp. All Rights Reserved.
- */
+
 package com.ilhsk.excel;
 
 import java.io.File;
@@ -20,12 +11,6 @@ import jxl.write.WritableSheet;
 import jxl.write.WritableWorkbook;
 import jxl.write.WriteException;
 
-
-/**
- * @Auth ilhsk
- * @Description 
- * <pre></pre>   
- */
 public class ExcelJxlSample {
 
 	 private static final String EXCEL_FILE_LOCATION = "C:\\temp\\Sample.xls";

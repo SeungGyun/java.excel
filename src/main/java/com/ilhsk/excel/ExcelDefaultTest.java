@@ -16,15 +16,7 @@ import org.junit.Test;
 
 public class ExcelDefaultTest {
 
-	/**
-	 * @Auth ilhsk ilhsk@nm-neo.com
-	 * @Create_Date 2018. 6. 5.
-	 * @Description
-	 * 
-	 *              <pre></pre>
-	 * 
-	 * @param args
-	 */
+	
 	public static void main(String[] args)throws Throwable {
 		FileInputStream file = new FileInputStream("D:/ttt/Item_tt.xls");
 		try {
